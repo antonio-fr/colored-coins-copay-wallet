@@ -106,4 +106,3 @@ public/lib/*
 public/js/*
 
 # Dotenv file
-.env

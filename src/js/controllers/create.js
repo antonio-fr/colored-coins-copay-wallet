@@ -11,6 +11,7 @@ angular.module('copayApp.controllers').controller('createController',
     var defaults = configService.getDefaults();
     this.isWindowsPhoneApp = platformInfo.isWP && isCordova;
     $scope.account = 1;
+    $scope.testnetEnabled=true;
 
     /* For compressed keys, m*73 + n*34 <= 496 */
     var COPAYER_PAIR_LIMITS = {

@@ -170,7 +170,7 @@ if [ ! -d $PROJECT ]; then
   rm -rf $PROJECT/platforms/android/res/values-zh
   rm -rf $PROJECT/platforms/android/res/values-ja
   rm -rf $PROJECT/platforms/android/res/values-de
-  cordova plugin add cordova-plugin-android-fingerprint-auth
+  cordova plugin add https://github.com/mjwheatley/cordova-plugin-android-fingerprint-auth#v1.2.1
   checkOK
 
   cordova plugin add cordova-plugin-screen-orientation

@@ -169,6 +169,7 @@ if [ ! -d $PROJECT ]; then
   rm -rf $PROJECT/platforms/android/res/values-zh-rTW
   rm -rf $PROJECT/platforms/android/res/values-zh
   rm -rf $PROJECT/platforms/android/res/values-ja
+  rm -rf $PROJECT/platforms/android/res/values-de
   cordova plugin add cordova-plugin-android-fingerprint-auth
   checkOK
 

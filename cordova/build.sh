@@ -157,6 +157,18 @@ if [ ! -d $PROJECT ]; then
 
   ## Fix plugin android-fingerprint
   rm -rf $PROJECT/platforms/android/res/values-es
+  rm -rf $PROJECT/platforms/android/res/values-ru
+  rm -rf $PROJECT/platforms/android/res/values-fr
+  rm -rf $PROJECT/platforms/android/res/values-no
+  rm -rf $PROJECT/platforms/android/res/values-pt
+  rm -rf $PROJECT/platforms/android/res/values-it
+  rm -rf $PROJECT/platforms/android/res/values-zh-rCN
+  rm -rf $PROJECT/platforms/android/res/values-zh-rHK
+  rm -rf $PROJECT/platforms/android/res/values-zh-rMO
+  rm -rf $PROJECT/platforms/android/res/values-zh-rSG
+  rm -rf $PROJECT/platforms/android/res/values-zh-rTW
+  rm -rf $PROJECT/platforms/android/res/values-zh
+  rm -rf $PROJECT/platforms/android/res/values-ja
   cordova plugin add cordova-plugin-android-fingerprint-auth
   checkOK
 
